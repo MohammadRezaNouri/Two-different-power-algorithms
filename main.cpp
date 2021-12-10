@@ -16,6 +16,29 @@ long power1(long x, long  y) // The first power function
     return count; // Returns the number of multipled operations
 }                 // end function 1
 
+long power2(long x, long y) // The second power function
+{
+    long  k = 1;
+    int count = 0; // To count the number of multiplication operations
+    while (y > 1)
+    {
+        count += 2; // Add a multiplication and division operation
+        if (y % 2 == 0)
+        {
+            x = x * x;
+            y = y / 2;
+        }
+        else
+        {
+            k = k * x;
+            x = x * x;
+            y = (y - 1) / 2;
+        }
+    }
+    x *= k;
+    return count; // Return the number of operations multipled and diided
+}                 // end function 2
+
 int main()
 {
 
