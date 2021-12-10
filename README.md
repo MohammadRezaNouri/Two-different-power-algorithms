@@ -38,4 +38,8 @@ Curriculum, educational and experimental
 I don't know!
 
 ## Thanks to
-#### [AmirHosseinBabaeayan](https://github.com/AmirHosseinBabaeayan)
+#### [Dr Muharram Mansoorizadeh](https://github.com/mansoorm1)
+#### [Mr AmirHosseinBabaeayan](https://github.com/AmirHosseinBabaeayan)
+
+## License
+Licensed under GPLv3. See [LICENSE.md](https://github.com/MohammadRezaNouri/Two-different-power-algorithms/blob/master/LICENSE).
